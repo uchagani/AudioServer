@@ -8,11 +8,11 @@ not to be used with the feedback sound when the wake word is detected (sound_fee
 
 # Running
 
-to get a list of all the mic devices to connect to
-python AudioServer.py --show_audio_devices_info
+to get a list of all the mic devices to connect to  
+python AudioServer.py --show_audio_devices_info  
 
-once you have the mic index number from the list output above 
-python AudioServer.py --input_audio_device_index 0 
+once you have the mic index number from the list output above   
+python AudioServer.py --input_audio_device_index 0   
 
 usage: AudioServer.py [-h]  
                       [--input_audio_device_index INPUT_AUDIO_DEVICE_INDEX]  
