@@ -281,7 +281,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--input_audio_device_index', help='index of input audio device', type=int, default=None)
     parser.add_argument('--device_name', help='unique device name', type=str, default='default')
-    parser.add_argument('--frame_size', help='frame size (default: 256 samples)', type=int, default=512)
+    parser.add_argument('--frame_size', help='frame size (default: 256 samples)', type=int, default=256)
     parser.add_argument('--mqtt_address', help='MQTT Server Address (default: localhost)', type=str, default='localhost')
     parser.add_argument('--mqtt_port', help='MQTT Port (default: 1883)', type=int, default=1883)
     parser.add_argument('--show_audio_devices_info', help='outputs a list of input audio devices')
